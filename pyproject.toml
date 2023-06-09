@@ -1,0 +1,26 @@
+
+[project]
+name = "gradient-text"
+version = "0.1.0"
+description = "A library to facilitate printing gradient color text to the console."
+authors = [
+    {name = "maxludden", email = "dev@maxludden.com"},
+]
+dependencies = [
+    "rich>=13.4.1",
+    "lorem-text>=2.1",
+    "loguru>=0.7.0",
+    "numpy>=1.24.3",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "snoop>=0.4.3",
+]
