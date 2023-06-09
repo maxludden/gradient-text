@@ -1,0 +1,207 @@
+:root {
+    --logo: "http://bit.ly/3YTb4kG";
+    --gradient-1: #00ff00;
+    --gradient-2: #ffff00;
+    --gradient-3: #ff8800;
+    --gradient-4: #ff0000;
+    --main-color: #cccccc;
+    --main-bg-color: #101010;
+    --main-header-color: #ffffff;
+    --alternate-color: #aaaaaa;
+    --alternate-bg-color: #212121;
+    --main-border-color: #666666;
+    --table-header-bg-color: #e2e2e2;
+    --link-color: #22ee22;
+    --bgcolor: #010101;
+    --header-bg-color: #000000;
+}
+@media (prefers-color-scheme: light) {
+    :root {
+        --logo: "http://bit.ly/3lR63dP";
+        --gradient-1: #ff00ff;
+        --gradient-2: #8800ff;
+        --gradient-3: #0000ff;
+        --gradient-4: #0088ff;
+        --main-color: #222222;
+        --main-bg-color: #efefef;
+        --main-header-color: #000000;
+        --alternate-color: #444444;
+        --alternate-bg-color: #cccccc;
+        --main-border-color: #888888;
+        --alternate-bg-color: #efefef;
+        --alternate-color: #444444;
+        --main-border-color: #BBBBBB;
+        --table-header-bg-color: #2e2e2e;
+        --link-color: #22ee22;
+        --bgcolor: #ffffff;
+        --header-bg-color: #eeeeee;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,400;0,900;1,900&display=swap');
+
+
+body {
+  font-family: 'Urbanist', sans-serif;
+}
+
+h1 {
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 900;
+}
+
+html {
+    font-family: "Urbanist", sans-serif;
+    font-size: 16px;
+    color: var(--alternate-color);
+    background-color: var(--bgcolor);
+}
+body {
+    margin: 5px;
+    padding: 2px;
+}
+h1 {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 2em;
+    font-weight: "black";
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3 {
+    color: var(--main-header-color);
+    background-color: var(--bg-color);
+}
+table {
+    margin-left: 20px
+}
+td {
+    font-family: 'Urbanist', sans-serif;
+    padding-left: 10px;
+}
+code {
+    font-size: 1.2em;
+}
+.gradient-magenta-purple {
+    background: linear-gradient(to right, #ff00ff, #ae00ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.gradient-purple-blue {
+    background: linear-gradient(to right, #ae00ff, #0088ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.gradient-blue-green {
+    background: linear-gradient(to right, #0088ff, #00ff00);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.gradient-green-yellow {
+    background: linear-gradient(to right, #00ff00, #ffff00);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.gradient-yellow-orange {
+    background: linear-gradient(to right, #ffff00, #ff8800);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.gradient-orange-red {
+    background: linear-gradient(to right, #ff8800, #ff0000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.gradient-red-magenta {
+    background: linear-gradient(to right, #ff0000, #a900ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.gradient-cool-spectrum {
+    background: linear-gradient(to right, #ff00ff, #ae00ff, #8800ff, #0000ff, #0088ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.gradient-cool-spectrum-45 {
+    background: linear-gradient(45deg, #ff00ff, #ae00ff, #8800ff, #0000ff, #0088ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.gradient-cool-spectrum-135 {
+    background: linear-gradient(135deg, #ff00ff, #ae00ff, #8800ff, #0000ff, #0088ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.gradient-warm-spectrum {
+    background: linear-gradient(to right, #ff00ff, #ff0000, #ff8800, #ffff00, #00ff00, #00ffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.gradient-warm-spectrum-45 {
+    background: linear-gradient(45deg, #ff00ff, #ff0000, #ff8800, #ffff00, #00ff00, #00ffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.gradient-warm-spectrum-135 {
+    background: linear-gradient(135deg, #ff00ff, #ff0000, #ff8800, #ffff00, #00ff00, #00ffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.rainbow {
+    background: linear-gradient(to right, #ff00ff, #ae00ff, #0088ff, #00ff00, #00ffff, #ffff00, #ff8800, #ff0000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.rainbow-45{
+    background: linear-gradient(45deg, #ff00ff, #ae00ff, #0088ff, #00ff00, #00ffff, #ffff00, #ff8800, #ff0000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.rainbow-135 {
+    background: linear-gradient(135deg, #ff00ff, #ae00ff, #0088ff, #00ff00, #00ffff, #ffff00, #ff8800, #ff0000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.gradient {
+    font-size: 1em;
+    background: linear-gradient(to right,var(--gradient-start) 0%, var(--gradient-end) 60%);
+    display: inline-block;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+.center {
+    text-align: center;
+    margin: auto;
+}
+a {
+    color: #44ff44;
+    font-style:italic;
+}
+a:hover {
+    background: linear-gradient(to right, #00ff00, #ffff00);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+a:visited {
+    color: rgb(0, 53, 19);
+}
+a:active {
+    color: #00ff00;
+}
